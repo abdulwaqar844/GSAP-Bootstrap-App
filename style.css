@@ -1,0 +1,42 @@
+.main-header{
+    padding-top: 15px;
+    padding-bottom: 2rem;
+width: auto;
+    height: auto; /* You must set a specified height */
+    background-size: cover; /* Resize the background image to cover the entire container */}
+.header-text{
+    margin: 16px;
+}
+.header-image{
+        padding: 15px;
+
+}
+.social-icons>*{
+    color: dodgerblue;
+    margin:5px ;
+}
+
+.projects{
+    background-color:  #f2f2f2;
+}
+.project-list>*{
+    padding: 8px;
+}
+.card{
+    margin: 2rem ;
+
+}
+
+
+@media (max-width: 576px) { 
+   .header-text{
+       text-align: center;
+   } 
+ }
+ @media (max-width: 1000px) { 
+    .project-list>*{
+        margin: 15px ;
+        padding: auto;
+    }
+  }
+ 
